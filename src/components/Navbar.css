@@ -1,0 +1,81 @@
+nav {
+    background: white;
+    box-shadow: none;
+    height: 0;
+}
+nav .brand-logo {
+    position: absolute;
+    font-size: 2.1rem;
+}
+ul.side-nav {
+    width: 190px;
+    top: 0;
+    margin: 0;
+    height: calc(100% + 60px);
+    padding-bottom: 60px;
+    background-color: #FFF;
+    z-index: 999;
+    will-change: left;
+}
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+ul.side-nav.fixed {
+    left: 0;
+    position: fixed;
+}
+ul.side-nav.fixed a {
+    box-sizing: content-box;
+    display: block;
+    padding: 10px 0 12px;
+}
+nav ul li{
+    transition: background-color 0.3s;
+}
+ul.side-nav.fixed li.logo {
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 40px;
+}
+ul li {
+    list-style-type: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+ul.side-nav li {
+    float: none;
+}
+.brand-logo h1 {
+    font-size: inherit;
+    line-height: inherit;
+    margin: inherit;
+    font-weight: inherit;
+}
+li.logo span {
+    display: block;
+    font-size: 14px;
+}
+ul.side-nav.fixed li.logo a {
+    font-weight: 200;
+    line-height: 100%;
+}
+ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
+    border: none;
+}
+:-webkit-any(article, aside, nav, section) h1 {
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}

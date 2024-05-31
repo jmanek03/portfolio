@@ -1,0 +1,8 @@
+.App {
+    display: flex;
+  }
+  
+  .content {
+    margin-left: 200px; /* Adjust this if necessary */
+    padding: 20px;
+  }

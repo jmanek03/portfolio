@@ -1,0 +1,54 @@
+.container {
+    width: 95%;
+  }
+  h3 {
+    font-weight: 200;
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding: 30px 40px;
+    text-transform: uppercase;
+  }
+  .full-height {
+    height: 100vh;
+  }
+  #intro.section {
+    background: url('') no-repeat top center/cover;
+    position: relative;
+  }
+  #intro.section .container {
+    color: white;
+    font-weight: 200;
+    right:7%;
+    position: absolute;
+    top: 0;
+    padding: 3rem 5rem;
+  }
+  #intro.section .container *:not(span) {
+    font-weight: 300;
+    line-height: 150%;
+    padding: 0 30px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+  #intro.section .underline {
+    border-bottom: 8px solid #35A29F;
+  }
+  #intro.section .highlight {
+    padding: 0 10px;
+    background-color: #35A29F;
+  }
+  #intro h2 {
+    font-size: calc(1em + 3vw);
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .waves-effect.waves-blue .waves-ripple {
+    /* The alpha value allows the text and background color
+     of the button to still show through. */
+    background-color: rgba(33, 150, 243, 0.2);
+  }

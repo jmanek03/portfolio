@@ -9,10 +9,10 @@
     text-transform: uppercase;
   }
   .full-height {
-    height: 100vh;
+    height: 99.7vh;
   }
   #intro.section .container {
-    color: #ffffff;
+    color: #000000;
     font-weight: 200;
     right:7%;
     position: absolute;
@@ -55,7 +55,7 @@
     font-size: calc(1em + 3vw);
   }
   .overlay {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     position: absolute;
     height: 100%;
     left: 0;
@@ -67,3 +67,8 @@
      of the button to still show through. */
     background-color: rgba(33, 150, 243, 0.2);
   }
+ .section{
+  padding-bottom: 30px;
+  padding-top: 0;
+  position: relative;
+}

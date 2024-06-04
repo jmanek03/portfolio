@@ -1,0 +1,39 @@
+.teal {
+    background-color: #35A29F !important;
+}
+.white-text {
+    color: #FFFFFF !important;
+}
+blockquote {
+    border-left: 5px solid #795548;
+    color: #795548;
+    font-size: 125%;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-left: 1.5rem;
+}
+h2 {
+    font-size: 22px;
+    line-height: 200%;
+    margin: 1rem 0 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+strong {
+    font-weight: 500;
+}
+a {
+    color: #009688;
+    text-decoration: none;
+}
+#about.section{
+    height: 100%;
+    width: 87.5%;
+    margin-left: 200px;
+}

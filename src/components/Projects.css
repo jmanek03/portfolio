@@ -1,4 +1,9 @@
-.card {
+
+#projects.section {
+  height: 100%;
+  width: 87.5%;
+  margin-left: 200px;
+}.card {
     margin-bottom: 60px;
   }
   .card .role {

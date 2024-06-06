@@ -24,31 +24,28 @@ export default function Projects() {
                 >Math-Training-Game<i className="mdi-navigation-more-vert right"></i
               ></span>
               <p>
-                Experimental web app with homemade recursive string
-                interpolation.
+              Displays basic math questions that include Addition, Subtraction, Division, and Multiplication for practice using HTML, CSS, JS
               </p>
             </div>
             <div className="card-reveal">
-              <span className="card-title brown-text"
-                >Accomplishments<i className="mdi-navigation-close right"></i
-              ></span>
+              <span className="card-title brown-text">
+                Accomplishments<i className="mdi-navigation-close right"></i>
+              </span>
               <ul>
-                <li><strong>Ruby on Rails</strong> backend</li>
-                <li><strong>Bulma CSS</strong> frontend</li>
-                <li>String interpolation via <strong>recursion</strong></li>
-                <li><strong>Dependency free</strong> JS config</li>
+                <li><strong>Javascript</strong> backend</li>
+                <li><strong>CSS</strong>frontend</li>
               </ul>
               <div className="card-action">
                 <a
-                  aria-label="Visit the GitHub repo for Interpol8r project"
-                  href="https://github.com/andrewborstein/interpol8r"
+                  aria-label="Visit the GitHub repo for Math-Training-Game project"
+                  href="https://github.com/jmanek03/Math-Training-Game"
                   target="_blank"
                   data-position="top"
                   data-tooltip="View Source"
                   className="btn-floating btn-large waves-effect waves-light brown tooltipped"
                   rel="noreferrer"
-                  ><i className="fa fa-github"></i
-                ></a>
+                  ><i className="fa fa-github"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -58,35 +55,31 @@ export default function Projects() {
           <div className="card medium">
             <div className="card-image waves-effect waves-block waves-light">
               <img
-                alt="Screenshot of BlogSpire web app"
-                src="/assets/img/blogspire.jpg"
+                alt="Screenshot of TextUtils web app"
+                src="assets/TextUtils.png"
                 className="activator"
               />
             </div>
             <div className="card-content">
               <span className="card-title activator teal-text hoverline"
-                >TextUtils<i className="mdi-navigation-more-vert right"></i
-              ></span>
+                >TextUtils<i className="mdi-navigation-more-vert right"></i>
+              </span>
               <p>
-                Blogging web app created for the Engineering team at
-                WeSpire.
+                Text analyzer website with basic text formatting functions such as upper case, lower case, remove white space etc. 
               </p>
             </div>
             <div className="card-reveal">
               <span className="card-title brown-text"
-                >Accomplishments<i className="mdi-navigation-close right"></i
-              ></span>
+                >Accomplishments<i className="mdi-navigation-close right"></i>
+              </span>
               <ul>
-                <li><strong>Ruby on Rails</strong> backend</li>
-                <li><strong>Materialize CSS</strong> frontend</li>
-                <li>User <strong>authentication</strong> via Devise</li>
-                <li>Implemented <strong>liking functionality</strong></li>
-                <li><strong>Client-side rendering</strong> via AJAX</li>
+                <li><strong>Bootstrap CSS</strong> frontend</li>
+                <li><strong>ReactJS</strong></li>
               </ul>
               <div className="card-action">
                 <a
-                  aria-label="Visit the GitHub repo for BlogSpire project"
-                  href="https://github.com/andrewborstein/blogspire"
+                  aria-label="Visit the GitHub repo for Texxtutils project"
+                  href="https://github.com/jmanek03/textutils"
                   target="_blank"
                   data-position="top"
                   data-tooltip="View Source"
@@ -103,41 +96,36 @@ export default function Projects() {
           <div className="card medium">
             <div className="card-image waves-effect waves-block waves-light">
               <img
-                alt="Code Island logo"
-                src="/assets/img/code-island.jpg"
+                alt="NewwsApp "
+                src="/assets/NewsApp.png"
                 className="activator"
               />
             </div>
             <div className="card-content">
               <span className="card-title activator teal-text hoverline"
-                >NewsApp<i className="mdi-navigation-more-vert right"></i
-              ></span>
+                >NewsApp<i className="mdi-navigation-more-vert right"></i></span>
               <p>
-                Online headquarters for the local Code for America brigade
-                in Rhode Island.
+                Developed a user-friendly news app providing real-time updates, personalized content, and seamless navigation for an 
+                enhanced reading experience. 
               </p>
             </div>
             <div className="card-reveal">
               <span className="card-title brown-text"
-                >Accomplishments<i className="mdi-navigation-close right"></i
-              ></span>
+                >Accomplishments<i className="mdi-navigation-close right"></i>
+              </span>
               <ul>
                 <li>
-                  Integrated “Next Meeting” via <strong>Meetup API</strong>
+                  Integrated “News” via <strong>News API</strong>
                 </li>
                 <li>
                   Developed <strong>CSS and JS</strong> responsive menu
                 </li>
-                <li>Created member list via <strong>GitHub API</strong></li>
-                <li>Refreshed branding and layout</li>
-                <li>
-                  Refactored all existing code (<strong>Jekyll</strong>)
-                </li>
+                <li><strong>ReactJS</strong></li>
               </ul>
               <div className="card-action">
                 <a
-                  aria-label="Visit the GitHub repo for Code Island project"
-                  href="http://github.com/andrewborstein/code-island.org"
+                  aria-label="Visit the GitHub repo for NewsApp project"
+                  href="https://github.com/jmanek03/newsapp"
                   target="_blank"
                   data-position="top"
                   data-tooltip="View Source"
@@ -160,14 +148,14 @@ export default function Projects() {
               />
             </div>
             <div className="card-content">
-              <span className="card-title activator teal-text hoverline"
-                >ERMS<i
+              <span className="card-title activator teal-text hoverline">
+                ERMS
+                <i
                   className="mdi-navigation-more-vert right"
                 ></i
               ></span>
               <p>
-                Fun, TV nostalgia-themed app that sends an MMS to a user's
-                phone number.
+                Displays the remuneration amount for teachers and staff depending upon some factors. 
               </p>
             </div>
             <div className="card-reveal">
@@ -175,15 +163,15 @@ export default function Projects() {
                 >Accomplishments<i className="mdi-navigation-close right"></i
               ></span>
               <ul>
-                <li>Built with Ruby on <strong>Rails</strong></li>
-                <li>Integrated <strong>Twilio API</strong></li>
-                <li>Designed in <strong>Bootstrap</strong></li>
-                <li><strong>Javascript</strong> input validation</li>
+                <li>Built with <strong>Javascript</strong></li>
+                <li>Designed in <strong>CSS</strong></li>
+                <li><strong>PHP</strong> input validation</li>
+                <li>Database using <strong>MySQL</strong></li>
               </ul>
               <div className="card-action">
                 <a
-                  aria-label="Visit the GitHub repo for Saved By the Text project"
-                  href="http://github.com/andrewborstein/saved-by-the-text"
+                  aria-label="Visit the GitHub repo for ERMS project"
+                  href="https://github.com/jmanek03/college-website"
                   target="_blank"
                   data-position="top"
                   data-tooltip="View Source"

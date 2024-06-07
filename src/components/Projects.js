@@ -1,8 +1,10 @@
+/* eslint-disable react/style-prop-object */
 import React from 'react'
 import './Projects.css';
 import './About.css';
 import './Intro.css'
 export default function Projects() {
+  
   return (
     <div>
     <section id="projects" className="section scrollspy">
@@ -14,14 +16,14 @@ export default function Projects() {
           <div className="card medium">
             <div className="card-image waves-effect waves-block waves-light">
               <img
-                alt="Screenshot of Interpol8r web app"
-                src="/assets/img/interpol8r.jpg"
+                alt="Screenshot of Math Training Game"
+                src="/assets/math-trainig-game.png"
                 className="activator"
               />
             </div>
             <div className="card-content">
               <span className="card-title activator teal-text hoverline"
-                >Math-Training-Game<i className="mdi-navigation-more-vert right"></i
+                >Math Training Game<i className="mdi-navigation-more-vert right"></i
               ></span>
               <p>
               Displays basic math questions that include Addition, Subtraction, Division, and Multiplication for practice using HTML, CSS, JS
@@ -143,7 +145,7 @@ export default function Projects() {
             <div className="card-image waves-effect waves-block waves-light">
               <img
                 alt="Zach Morris from Saved by the Bell, on his clunky cell phone"
-                src="/assets/img/saved-by-the-text.jpg"
+                src="/assets/ERMS.png"
                 className="activator"
               />
             </div>

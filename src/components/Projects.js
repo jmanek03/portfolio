@@ -111,7 +111,23 @@ export default function Projects() {
                 enhanced reading experience. 
               </p>
             </div>
-            <div className="card-reveal">
+            <div className="card-reveal" onClick={(a)=>a(document).ready(function() {
+            a(document).on("click.card", ".card", function(b) {
+                a(this).find(".card-reveal").length && (a(b.target).is(a(".card-reveal .card-title")) || a(b.target).is(a(".card-reveal .card-title i")) ? a(this).find(".card-reveal").velocity({
+                    translateY: 0
+                }, {
+                    duration: 225,
+                    queue: !1,
+                    easing: "easeInOutQuad"
+                }) : (a(b.target).is(a(".card .activator")) || a(b.target).is(a(".card .activator i"))) && a(this).find(".card-reveal").velocity({
+                    translateY: "-100%"
+                }, {
+                    duration: 300,
+                    queue: !1,
+                    easing: "easeInOutQuad"
+                }))
+            })
+            })}>
               <span className="card-title brown-text"
                 >Accomplishments<i className="mdi-navigation-close right"></i>
               </span>

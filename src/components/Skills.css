@@ -1,0 +1,26 @@
+#skills.section {
+    height: 100%;
+    width: 87.5%;
+    margin-left: 200px;
+}
+#skills .card.large {
+    height: 360px;
+  }
+  #skills h4 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  #skills .col img.responsive-img {
+    margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  .card.large .card-content p {
+    color: inherit;
+    margin: 0;
+    padding: 30px 0;
+  }

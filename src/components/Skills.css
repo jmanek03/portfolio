@@ -3,7 +3,7 @@
     width: 87.5%;
     margin-left: 200px;
 }
-#skills .card.large {
+#skills .card.medium {
     height: 360px;
   }
   #skills h4 {
@@ -19,7 +19,7 @@
     vertical-align: middle;
     display: table-cell;
   }
-  .card.large .card-content p {
+  .card.medium .card-content p {
     color: inherit;
     margin: 0;
     padding: 30px 0;

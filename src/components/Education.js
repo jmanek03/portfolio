@@ -47,7 +47,7 @@ export default function Education() {
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row flex">
         <div class="col s12 m6">
           <div class="card">
             <div class="card-content">

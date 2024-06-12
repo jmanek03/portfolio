@@ -1,0 +1,10 @@
+#contact.section {
+    height: 100%;
+    width: 87.5%;
+    margin-left: 200px;
+}
+#contact a:not(.btn-floating) {
+    bottom: 6px;
+    left: 20px;
+    position: relative;
+  }

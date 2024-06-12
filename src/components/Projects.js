@@ -2,7 +2,7 @@
 import React from 'react'
 import './Projects.css';
 import './About.css';
-import './Intro.css'
+import './Intro.css';
 export default function Projects() {
   
   return (
